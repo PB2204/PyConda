@@ -10,7 +10,7 @@ while True:
         break  # Exit the loop and gracefully quit the program
     
     try:
-	if text.endswith(".pc") != True:
+	if ".pc" not in text:
 		print("The provided file isn't a valid PyConda file.")
         result, error = PyConda.run('<stdin>', text)
 
