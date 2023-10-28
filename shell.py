@@ -6,7 +6,7 @@ while True:
     if text.strip() == "":
         continue
 
-    if text.lower() in ["EXIT", "QUIT"]:
+    if text.upper() in ["EXIT", "QUIT"]:
         break
 
     try:
