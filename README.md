@@ -73,6 +73,7 @@ This output demonstrates the use of functions, loops, and print statements in Py
 - Variables are declared using the `VAR` keyword.
 - Lists are enclosed in square brackets `[]`, and you can access elements using square brackets (e.g., `my_list[0]`).
 - External code can be executed using the `RUN` function.
+- PyConda shell can be exited using the `quit` or `exit` command.
 
 ## Running External Files
 
